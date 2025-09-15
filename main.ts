@@ -1,6 +1,6 @@
 //% weight=100 color=#ff8800 icon="\uf0a4"
 //% block="tileBelowSprite"
-namespace tileUtils {
+namespace tileBelowSprite {
     /**
      * Get the tile location directly below a sprite
      */
