@@ -1,5 +1,5 @@
 //% weight=100 color=#ff8800 icon="\uf0a4"
-//% block="Tile Utils"
+//% block="tileBelowSprite"
 namespace tileUtils {
     /**
      * Get the tile location directly below a sprite
