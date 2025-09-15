@@ -1,6 +1,6 @@
-//% weight=100 color=#0fbc11 icon="\uf1b0"
-//% blockNamespace="myBlocks"
-namespace myBlocks {
+//% weight=100 color=#ff8800 icon="\uf0a4"
+//% block="Tile Utils"
+namespace tileUtils {
     /**
      * Get the tile location directly below a sprite
      */
