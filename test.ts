@@ -1,9 +1,11 @@
 let mySprite = sprites.create(img`
-    . . . . . . . . 
-    . . . . . . . . 
-    . . . . . . . . 
-    . . . . . . . . 
+    . . . . . . . .
+    . . . . . . . .
+    . . . . . . . .
+    . . . . . . . .
 `, SpriteKind.Player)
 
-let below = myBlocks.tileBelow(mySprite)
-tiles.setTileAt(below, assets.tile`transparency16`)
+let below = tileUtils.tileBelowSprite(mySprite)
+let twoBelow = tileUtils.tileBelowLocation(below)
+
+tiles.setTileAt(twoBelow, assets.tile`transparency16`)
