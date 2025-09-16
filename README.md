@@ -1,9 +1,15 @@
 # Tile Below Sprite – MakeCode Arcade Extension
 
-This extension adds a block that returns the **tile location directly below a sprite**.  
-You can use it with `tiles.setTileAt(...)`, `tiles.setWallAt(...)`, etc.
+This extension adds blocks to get the **tile directly below a sprite** or another tile location.  
+You can chain them to stack downward.
 
 ### Example
-
 ```ts
-tiles.setTileAt(myBlocks.tileBelow(mySprite), assets.tile`myTile`)
+// One below the sprite
+let one = tileUtils.tileBelowSprite(mySprite)
+
+// Two below the sprite
+let two = tileUtils.tileBelowLocation(one)
+
+// Use it with tiles
+tiles.setTileAt(two, assets.tile`myTile`)
