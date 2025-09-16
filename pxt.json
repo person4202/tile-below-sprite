@@ -1,7 +1,7 @@
 {
   "name": "tile-below-sprite",
   "version": "0.0.1",
-  "description": "MakeCode Arcade extension that adds a block to get the tile below a sprite",
+  "description": "MakeCode Arcade extension that adds blocks for finding the tile below a sprite or location",
   "dependencies": {
     "device": "*"
   },
